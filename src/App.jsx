@@ -6,13 +6,15 @@ import './App.css';
 import Contador from './components/Contador'; 
 import Ta5Component from './components/Ta5Component';
 import TaskList from './components/ta6-7-8/TaskList';
+import Ta10Component from './components/Ta10Component';
+import Temporizador from './components/Temporizador';
 
 function App() {
   return (
     <>
 
-      {/* Usamos el componente Contador */}
-       <Contador />
+      {/*TA4 y 9*/}
+      {/* <Contador />*/}
 
    
       {/*
@@ -21,6 +23,15 @@ function App() {
       */}
 
         {/*<TaskList />*/}
+
+        {/*TA10*/}
+
+       {/* <Ta10Component />*/}
+
+        {/*TA11*/}
+       <Temporizador />
+
+
 
     </>
 
